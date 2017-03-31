@@ -10,10 +10,17 @@ RSpec.describe GramsController, type: :controller do
 
   describe "grams#new action" do 
     it "should successfully show the new form" do
-      get :new
+      get :new #this goes through the route and calls it in the grams controller. then sends back response.
       expect(response).to have_http_status(:success)
+      #byebug
+    end
+    it "should successfully instantiate a new gram" do 
+      #this goes directly to the grams controller without going through the route. Testing controller new method returns type gram.
+      expect(GramsController.new.new.class).to eq(Gram)
     end
   end
+
+  #look up return value of the new action
 
   describe "grams#create action" do
     it "should successfully create a new gram in our database" do
@@ -21,7 +28,7 @@ RSpec.describe GramsController, type: :controller do
       expect(response).to redirect_to root_path
 
       gram = Gram.last
-      expect(gram.message).to eq("Hello")
+      expect(gram.message).to eq("Hello!")
     end
   end
 end
