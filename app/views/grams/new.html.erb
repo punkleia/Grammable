@@ -1,3 +1,20 @@
+<!-- <script>
+  AWS.events.on('retry', function(response) {  
+        if (response.error.name === 'RequestTimeTooSkewed') {
+          console.error('User time is not correct. Handling error!');
+          console.log('AWS systemClockOffset:', AWS.config.systemClockOffset);
+          var serverTime = Date.parse(response.httpResponse.headers['date']);
+          var timeNow = new Date().getTime();
+          console.log('AWS timestamp:', new Date(serverTime));
+          console.log('Browser timestamp:', new Date(timeNow));
+          AWS.config.systemClockOffset = Math.abs(timeNow - serverTime);
+          response.error.retryable = true;
+          console.log('Setting systemClockOffset to:', AWS.config.systemClockOffset);
+          console.log('Retrying uploading to S3 once more...');
+        }
+  });
+</script> -->
+
 <h1>New Gram!</h1>
 
 <%= simple_form_for @gram do |f| %>
