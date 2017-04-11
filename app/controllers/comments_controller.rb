@@ -23,8 +23,4 @@ private
     params.require(:comment).permit(:message, :user_id, :gram_id)
   end
 
-  def render_not_found(status=:not_found)
-    render plain: "#{status.to_s.titleize} :(", status: status
-  end
-
 end
