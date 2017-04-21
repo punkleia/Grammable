@@ -3,14 +3,14 @@
 body {
   // background: #331054;
   background: #E3E3E3;
-  font-family: 'Loved by the King', cursive;
+  font-family: 'Shadows Into Light', sans-serif;
   font-size: 20px;
 }
 
 h1 {
-   margin: 0;  
-// font-family: 'Shadows Into Light', cursive;
-   font-family: 'Loved by the King', cursive;
+   margin-bottom: 20px;  
+   font-family: 'Shadows Into Light', cursive;
+   // font-family: 'Loved by the King', cursive;
    font-weight: bold;
 
 }
@@ -33,11 +33,13 @@ h1 {
   color: #CDCDD1;
   font-size: 21px;
   padding-left: 12px;
+  font-family: 'Shadows Into Light', sans-serif;
  }
 
  .top-nav .add {
   margin-top: 10px;
   color: #AEF57F;
+  font-family: 'Shadows Into Light', sans-serif;
  }
 
 .brand {
@@ -48,6 +50,11 @@ h1 {
   font-family: 'boycottregular';
   margin-bottom: 0px;
   padding-bottom: 0px;
+}
+
+.brand a {
+  text-decoration: none;
+  color: #E3E3E3;
 }
 
 .sub-title {
@@ -107,7 +114,8 @@ input {
   margin-top: 10px;
   border-radius: 0px;
   // font-family: 'Nothing You Could Do', cursive;
-  font-family: 'Loved by the King', cursive;
+  // font-family: 'Loved by the King', cursive;
+  font-family: 'Shadows Into Light', sans-serif;
 }
 
 .input.boolean {
@@ -133,12 +141,24 @@ input {
 }
 
 .comment {
-  font-family: 'Shadows Into Light', sans-serif;
-  font-size: 18px;
+  font-size: 15px;
+  margin-top: 5px;
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
 }
 
 .comment_handle {
   color: #125688;
-  font-weight: bold;
+  // font-weight: bold;
   font-size: 20px;
+  font-family: 'Shadows Into Light', sans-serif;
+}
+
+h4 {
+  margin-top: 15px;
+  font-weight: bold;
+
+}
+
+h3 {
+  font-weight: bold;
 }
