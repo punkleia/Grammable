@@ -1,1 +1,144 @@
 @import "bootstrap";
+
+body {
+  // background: #331054;
+  background: #E3E3E3;
+  font-family: 'Loved by the King', cursive;
+  font-size: 20px;
+}
+
+h1 {
+   margin: 0;  
+// font-family: 'Shadows Into Light', cursive;
+   font-family: 'Loved by the King', cursive;
+   font-weight: bold;
+
+}
+
+.top-nav {
+  background-color: #10136B;
+  // #BF112E; 
+  // #C91231;
+  border-bottom-color: #AEF57F;
+  border-bottom-width: 1px;
+  border-bottom-style: solid; 
+  // min-height: 80px;
+  padding-top: 7px;
+  font-family: 'Loved by the King', cursive;
+  font-size: 18px;
+ }
+
+ .top-nav .add a {
+  font-weight: bold;
+  color: #CDCDD1;
+  font-size: 21px;
+  padding-left: 12px;
+ }
+
+ .top-nav .add {
+  margin-top: 10px;
+  color: #AEF57F;
+ }
+
+.brand {
+  color: #E3E3E3;
+  // #E1E2F5;
+  // #F5E4E7;
+  font-size: 50px;
+  font-family: 'boycottregular';
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.sub-title {
+  // color: #E3E3E3;
+  color: #AEF57F;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 25px;
+  margin-top: -15px;
+  margin-bottom: 0px;
+  margin-left: 60px;
+  font-weight: bold; 
+}
+
+.card {
+  background-color: #fff;
+  border-radius: .15rem;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid #e8e8e8;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 0;
+
+}
+
+.card.form {
+  padding: 20px;
+}
+
+label {
+  font-size: 18px;
+}
+
+input {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.handle {
+  margin: 10px;
+  color: #125688;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card p, .card .message {
+  font-size: 18px;
+  margin: 20px;  
+}
+
+.my-btn {
+  background-color: #10136B;
+  width: 100%;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #AEF57F;
+  margin-top: 10px;
+  border-radius: 0px;
+  // font-family: 'Nothing You Could Do', cursive;
+  font-family: 'Loved by the King', cursive;
+}
+
+.input.boolean {
+  margin-left: 18px;
+  margin-top: 5px;
+}
+
+.input.boolean label {
+  margin-top: 5px;
+  line-height: 44px;
+}
+
+.gram-actions a {
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #125688;
+}
+
+.comments {
+  padding: 20px;
+}
+
+.comment {
+  font-family: 'Shadows Into Light', sans-serif;
+  font-size: 18px;
+}
+
+.comment_handle {
+  color: #125688;
+  font-weight: bold;
+  font-size: 20px;
+}
