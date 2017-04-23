@@ -162,3 +162,9 @@ h4 {
 h3 {
   font-weight: bold;
 }
+
+.img-container {
+  -o-object-fit: cover;
+  object-fit: cover;
+  overflow: hidden;
+}
