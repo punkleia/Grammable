@@ -16,16 +16,13 @@ h1 {
 }
 
 .top-nav {
-  background-color: #10136B;
-  // #BF112E; 
-  // #C91231;
   border-bottom-color: #AEF57F;
-  border-bottom-width: 1px;
+  border-bottom-width: 25px;
   border-bottom-style: solid; 
-  // min-height: 80px;
   padding-top: 7px;
   font-family: 'Loved by the King', cursive;
   font-size: 18px;
+  background-image: image_url("tobias-van-schneider-230172.jpg");
  }
 
  .top-nav .add a {
@@ -105,7 +102,9 @@ input {
 }
 
 .my-btn {
-  background-color: #10136B;
+  background-color: #3D3D3D;
+  // #3F3E40;
+  // #10136B;
   width: 100%;
   border: none;
   font-size: 24px;
@@ -143,7 +142,7 @@ input {
 .comment {
   font-size: 15px;
   margin-top: 5px;
-  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  font-family: "Segoe UI", Candara, sans-serif;
 }
 
 .comment_handle {
